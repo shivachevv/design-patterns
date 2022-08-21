@@ -1,10 +1,11 @@
+const decoratorHandler = require('../patterns/decorator');
 const observerHandler = require('../patterns/observer');
 const strategyHandler = require('../patterns/strategy');
 
 module.exports = [
   { name: 'Strategy Pattern', handler: strategyHandler },
   { name: 'Observer Pattern', handler: observerHandler },
-  { name: 'Decorator Pattern', handler: '' },
+  { name: 'Decorator Pattern', handler: decoratorHandler },
   { name: 'Factory Method Pattern', handler: '' },
   { name: 'Abstract Factory Pattern', handler: '' },
   { name: 'Singleton Pattern', handler: '' },
