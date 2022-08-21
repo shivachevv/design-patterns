@@ -1,8 +1,9 @@
+const observerHandler = require('../patterns/observer');
 const strategyHandler = require('../patterns/strategy');
 
 module.exports = [
   { name: 'Strategy Pattern', handler: strategyHandler },
-  { name: 'Observer Pattern', handler: '' },
+  { name: 'Observer Pattern', handler: observerHandler },
   { name: 'Decorator Pattern', handler: '' },
   { name: 'Factory Method Pattern', handler: '' },
   { name: 'Abstract Factory Pattern', handler: '' },
