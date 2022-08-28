@@ -2,6 +2,7 @@ const abstractFactoryHandler = require('../patterns/abstract-factory');
 const decoratorHandler = require('../patterns/decorator');
 const factoryHandler = require('../patterns/factory');
 const observerHandler = require('../patterns/observer');
+const commandHandler = require('../patterns/command');
 const singletonHandler = require('../patterns/singleton');
 const strategyHandler = require('../patterns/strategy');
 
@@ -12,7 +13,7 @@ module.exports = [
   { name: 'Factory Method Pattern', handler: factoryHandler },
   { name: 'Abstract Factory Pattern', handler: abstractFactoryHandler },
   { name: 'Singleton Pattern', handler: singletonHandler },
-  { name: 'Command Pattern', handler: '' },
+  { name: 'Command Pattern', handler: commandHandler },
   { name: 'Adapter Pattern', handler: '' },
   { name: 'Facade Pattern', handler: '' },
   { name: 'Proxy Pattern', handler: '' },
