@@ -6,6 +6,7 @@ const commandHandler = require('../patterns/command');
 const singletonHandler = require('../patterns/singleton');
 const strategyHandler = require('../patterns/strategy');
 const adapterHandler = require('../patterns/adapter');
+const facadeHandler = require('../patterns/facade');
 
 module.exports = [
   { name: 'Strategy Pattern', handler: strategyHandler },
@@ -16,7 +17,7 @@ module.exports = [
   { name: 'Singleton Pattern', handler: singletonHandler },
   { name: 'Command Pattern', handler: commandHandler },
   { name: 'Adapter Pattern', handler: adapterHandler },
-  { name: 'Facade Pattern', handler: '' },
+  { name: 'Facade Pattern', handler: facadeHandler },
   { name: 'Proxy Pattern', handler: '' },
   { name: 'Bridge Pattern', handler: '' },
   { name: 'Structural Patterns', handler: '' },
