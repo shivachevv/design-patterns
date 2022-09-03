@@ -9,6 +9,7 @@ const adapterHandler = require('../patterns/adapter');
 const facadeHandler = require('../patterns/facade');
 const proxyHandler = require('../patterns/proxy');
 const bridgeHandler = require('../patterns/bridge');
+const templateHandler = require('../patterns/template');
 
 module.exports = [
   { name: 'Strategy Pattern', handler: strategyHandler },
@@ -22,8 +23,7 @@ module.exports = [
   { name: 'Facade Pattern', handler: facadeHandler },
   { name: 'Proxy Pattern', handler: proxyHandler },
   { name: 'Bridge Pattern', handler: bridgeHandler },
-  { name: 'Structural Patterns', handler: '' },
-  { name: 'Template Method Pattern', handler: '' },
+  { name: 'Template Method Pattern', handler: templateHandler },
   { name: 'Composite Pattern', handler: '' },
   { name: 'Iterator Pattern', handler: '' },
   { name: 'State Pattern', handler: '' },
