@@ -12,6 +12,7 @@ const bridgeHandler = require('../patterns/bridge');
 const templateHandler = require('../patterns/template');
 const compositeHandler = require('../patterns/composite');
 const iteratorHandler = require('../patterns/iterator');
+const stateHandler = require('../patterns/state');
 
 module.exports = [
   { name: 'Strategy Pattern', handler: strategyHandler },
@@ -28,6 +29,6 @@ module.exports = [
   { name: 'Template Method Pattern', handler: templateHandler },
   { name: 'Composite Pattern', handler: compositeHandler },
   { name: 'Iterator Pattern', handler: iteratorHandler },
-  { name: 'State Pattern', handler: '' },
+  { name: 'State Pattern', handler: stateHandler },
   { name: 'Null Object Pattern', handler: '' },
 ];
